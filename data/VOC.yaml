@@ -1,0 +1,10 @@
+
+
+train: Data_VOC/train.txt  # 13621 images
+val: Data_VOC/val.txt  # 3504 images
+test: Data_VOC/test.txt # 3504 images
+
+# Classes
+nc: 20 # number of classes
+names: ['aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus', 'car', 'cat', 'chair', 'cow', 'diningtable', 'dog',
+        'horse', 'motorbike', 'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tvmonitor']  # class names
